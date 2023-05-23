@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Doğum Günü Partisi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+        
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            text-align: center;
+            color: #ff4500;
+        }
+        
+        p {
+            text-align: center;
+            color: #555;
+        }
+        
+        .cake {
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+        .candles {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        
+        .candle {
+            width: 20px;
+            height: 60px;
+            margin: 0 5px;
+            background-color: #ffcd00;
+            border-radius: 5px;
+        }
+        
+        .flame {
+            width: 10px;
+            height: 20px;
+            margin: 0 auto;
+            background-color: #ff4500;
+            border-radius: 50% 50% 0 0;
+            animation: flicker 1s infinite;
+        }
+        
+        @keyframes flicker {
+            0% { opacity: 1; }
+            50% { opacity: 0.5; }
+            100% { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Doğum Günü Partisi</h1>
+        <p>İyi ki doğdun! Kutlama zamanı!</p>
+        <div class="cake">
+            <img src="birthday_cake.png" alt="Doğum Günü Pastası" width="200">
+        </div>
+        <div class="candles">
+            <div class="candle">
+                <div class="flame"></div>
+            </div>
+            <div class="candle">
+                <div class="flame"></div>
+            </div>
+            <div class="candle">
+                <div class="flame"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
